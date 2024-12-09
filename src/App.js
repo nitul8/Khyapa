@@ -1,11 +1,10 @@
 import React from "react";
 
+//import components
+import Home from "./Components/Home";
+
 const App = () => {
-    return (
-        <div className="w-full h-screen flex justify-center items-center font-bold text-6xl">
-            Hello
-        </div>
-    );
+    return <Home />;
 };
 
 export default App;
